@@ -1,16 +1,16 @@
 # 📝 API RESTful de Gerenciamento de Tarefas
 
 ![Java](https://img.shields.io/badge/Java-21-blue)
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-3.2.0-green)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-4.0-green)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 
-API desenvolvida em **Java 21** com **Spring Boot** para gerenciar tarefas, permitindo criar, listar, atualizar e remover tarefas.
+API desenvolvida em **Java 21** com **Spring Boot 4.0** para gerenciar tarefas, permitindo criar, listar, atualizar e remover tarefas.
 
 ---
 
 ## 🚀 Tecnologias Utilizadas
 - **Java 21**
-- **Spring Boot**
+- **Spring Boot 4.0**
 - **Spring Data JPA**
 - **MySQL**
 - **Postman** (para testes)
@@ -43,7 +43,7 @@ A entidade principal **Tarefa** possui os seguintes atributos:
 ```json
 {
   "nome": "Desenvolvimento da API",
-  "responsavel": "Gabriel Teste",
+  "responsavel": "Gabriel TESTE",
   "tarefa": "Desenvolver endpoints da API",
   "dataEntrega": "2025-12-12"
 }
